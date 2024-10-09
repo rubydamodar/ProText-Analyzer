@@ -8,7 +8,6 @@
 
 ## Project Structure
 
-```
 🗂 Directories and Files
 
 📝 Cleaned Articles
@@ -50,7 +49,7 @@
 - **additional_files:** Summary results and metrics.
   - `analysis_results.csv`: Various analysis results.
   - `final_text_analysis_results.xlsx`: Final compiled analysis results.
-```
+
 
 ## Blackcoffer Test Assignment
 
