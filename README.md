@@ -1,3 +1,5 @@
+![ProText Analyzer](https://see.fontimg.com/api/rf5/YzROj/NWU1YzRiZjQxYmU1NDJlM2E4YWU0OGE5OTI4YjU2MzIudHRm/UHJvVGV4dCBBbmFseXplcg/sdglitchdemo-regular.png?r=fs&h=50&w=1250&fg=590458&bg=FFFFFF&tb=1&s=40)
+
 # ProText Analyzer
 
 > ## Note
