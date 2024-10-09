@@ -1,4 +1,78 @@
-# 📝 ProText-Analyzer
+# ProText Analyzer
+
+> ## Note
+> Apologies, but I did not use the NLTK package for some tasks. Instead, I used:
+> - **TextBlob** for sentiment analysis
+> - **spaCy** for various text processing tasks
+> - **Syllapy** for counting syllables in words
+
+## Project Structure
+
+```
+🗂 Directories and Files
+
+📝 Cleaned Articles
+- **cleaned_articles:** Contains cleaned articles ready for analysis.
+
+📂 Extracted Articles
+- **extracted_articles:** Holds raw articles extracted for the project.
+
+📚 Master Dictionary
+- **master_dictionary:** Collection of files for sentiment analysis.
+  - `cleaned_negative_words.txt`: List of cleaned negative words.
+  - `cleaned_positive_words.txt`: List of cleaned positive words.
+  - `negative-words.txt`: Raw negative words for sentiment analysis.
+  - `positive-words.txt`: Raw positive words for sentiment analysis.
+
+📑 Project Introduction
+- **project_introduction:** Overview and objectives of the project.
+
+🧪 Test Assessment
+- **test_assessment:** Contains test assignments and notebooks.
+  - `dataextraction.ipynb`: Jupyter Notebook for data extraction tasks.
+  - `testassessment.ipynb`: Jupyter Notebook for additional test assessments.
+
+💻 Code and Markdown
+- **testassignment:** Code and markdown files related to assignments.
+  - `Code + Markdown/`: Contains code snippets and explanations.
+  - `Run All/`: Script to execute all code cells in notebooks.
+
+🚫 Stop Words
+- **Stop Words:** Directory with various stop words files for preprocessing.
+
+📊 Text Analysis
+- **text_analysis:** Files for performing text analysis.
+  - `textanalysis.ipynb`: Jupyter Notebook for text analysis.
+  - `sentiment_analysis.log`: Log file for sentiment analysis results.
+  - `textblob_sentiment_result.csv`: CSV file with sentiment analysis results.
+
+📈 Additional Files
+- **additional_files:** Summary results and metrics.
+  - `analysis_results.csv`: Various analysis results.
+  - `final_text_analysis_results.xlsx`: Final compiled analysis results.
+```
+
+## Blackcoffer Test Assignment
+
+### Company Information
+- **Consulting Website:** Blackcoffer | LSA Lead
+- **Web App Products:** Netclan | Insights | Hire Kingdom | Workcroft
+- **Mobile App Products:** Netclan | Bwstory
+
+### Assignment Overview
+1. **Objective:** Extract textual data from provided URLs and perform text analysis.
+2. **Data Extraction:** 
+   - Input from `Input.xlsx`
+   - Tools: Python, BeautifulSoup, Selenium, Scrapy.
+3. **Data Analysis:**
+   - Output in CSV or Excel format.
+   - Variables include Positive Score, Negative Score, Polarity Score, etc.
+4. **Timeline:** Duration of 6 days.
+5. **Submission:** Via Google Form with required files.
+
+### Methodology
+- **Sentimental Analysis:** Clean text using stop words, create dictionaries of positive/negative words, and extract variables.
+- **Readability Analysis:** Calculate average sentence length, percentage of complex words, and Fog Index.
 
 **Objective**:  
 The **ProText-Analyzer** project extracts article content from provided URLs and performs various text analysis tasks like sentiment scoring, readability measurement, and more. The results are structured in a clean and organized format, ready for review and further use.
